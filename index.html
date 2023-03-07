@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+            integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css" />
+        <title>Proyecto Try 3</title>
+
+    </head>
+
+    <body>
+        <!--==========================================   MENU   =================================================-->
+        <div class="contenedor-header">
+            <header>
+                <div class="logo">
+                    <a href="#">Owen Beck</a>
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                        <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                        <li><a href="#habilidades" onclick="seleccionar()">HABILIDADES</a></li>
+                        <li><a href="#experiencia" onclick="seleccionar()">EXPERIENCIA</a></li>
+                        <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                        <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                    </ul>
+                </nav>
+                <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </header>
+        </div>
+
+        <!--===========================================   INICIO   ===========================================-->
+        <section id="inicio" class="inicio">
+            <div class="contenido-banner">
+                <div class="contenedor-img">
+                    <img src="assets/images/profile_dev.jpg" alt="Ha ocurrido un error al cargar la imagen de perfil">
+                </div>
+                <h1>OWEN BECK</h1>
+                <h2>Desarrollador Web - Editor - YouTube Mánager</h2>
+                <div class="redes">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-discord"></i></a>
+                    <a href="#"><i class="fa-brands fa-skype"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </section>
+
+
+        <!--=======================================   SECCION SOBRE MI   ============================================-->
+        <section id="sobremi" class="sobremi">
+            <div class="contenido-seccion">
+                <h2>Sobre Mí</h2>
+                <p class="intropersonal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget ligula felis</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt finibus blandit. Curabitur
+                    ultrices tempus lectus, quis tempor purus tempus eget. Phasellus rhoncus nisi nisi, id convallis
+                    ante accumsan id. Aliquam consectetur elit ut ex elementum, sit amet tincidunt eros tincidunt. Donec
+                    sodales, mauris vel aliquet ultrices, erat mauris condimentum nisi, sed fringilla turpis velit porta
+                    leo. Proin laoreet risus nisi, id posuere diam euismod eu. Sed auctor ultricies dolor, ac ultrices
+                    ligula aliquam a. Pellentesque congue scelerisque consectetur. Etiam malesuada justo quis erat
+                    ultrices suscipit. Phasellus congue urna erat, ac sodales neque ultricies at. Morbi ligula eros,
+                    tristique iaculis velit eu, pulvinar convallis lectus. Maecenas fermentum ultrices odio, nec
+                    tincidunt ligula imperdiet ac. Phasellus vel consequat ligula. Vestibulum facilisis mi ligula, non
+                    dictum odio elementum ut. Suspendisse in efficitur lectus. Aliquam vitae tellus eget ligula volutpat
+                    interdum sed eu libero.</p>
+
+                    <h3>Datos</h3>
+                    <div class="fila">
+    
+                        <div class="col">
+                            <h4>
+                                <i class="fa-solid fa-phone"></i>Teléfono
+                            </h4>
+                            <span class="info-contacto">(438) 866-1765</span>
+                        </div>
+    
+                        <div class="col">
+                            <h4>
+                                <i class="fa-solid fa-envelope"></i>Correo
+                            </h4>
+                            <span class="info-contacto">owen.beck@example.com</span>
+                        </div>
+    
+                        <div class="col">
+                            <h4>
+                                <i class="fa-solid fa-globe"></i>Página Web
+                            </h4>
+                            <span class="info-contacto">www.example.com</span>
+                        </div>
+    
+                        <div class="col">
+                            <h4>
+                                <i class="fa-solid fa-location-dot"></i>Ubicación
+                            </h4>
+                            <span class="info-contacto">5644 Lovers Ln</span>
+                        </div>
+    
+                    </div>
+                </div>
+            </section>
+
+        <!--========================================   HABILIDADES GENERALES   ========================================-->
+        <section class="skills" id="habilidades">
+            <div class="contenido-seccion">
+                <h2>HABILIDADES</h2>
+                <div class="fila">
+                    <!--===========================   HABILIDADES PRINCIPALES   ==================================-->
+                    <div class="col">
+                        <h3>Habilidades Profesionales</h3>
+                        <div class="skill">
+                            <p>Javascript</p>
+                            <div class="container">
+                                <div class="skillbar javascript"></div><!--75%-->
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p>HTML & CSS</p>
+                            <div class="container">
+                                <div class="skillbar htmlcss"></div><!--89%-->
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p>Photoshop/Illustrator/InDesign</p>
+                            <div class="container">
+                                <div class="skillbar photoshop"></div><!--95%-->
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p>Wordpress</p>
+                            <div class="container">
+                                <div class="skillbar wordpress"></div><!--81%-->
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p>Premiere Pro & After Effects</p>
+                            <div class="container">
+                                <div class="skillbar premiere"></div><!--65%-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--====================================== LENGUAJES =======================================-->
+                    <div class="col">
+                        <h3>Idiomas</h3>
+                        <div class="skill">
+                            <p>Inglés</p>
+                            <div class="container">
+                                <div class="skillbar ingles"></div><!--90%-->
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p>Italiano</p>
+                            <div class="container">
+                                <div class="skillbar italiano"></div><!--70%-->
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <p>Español</p>
+                            <div class="container">
+                                <div class="skillbar espanol"></div><!--99%-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--============================================   CURRICULO   ===============================================-->
+        <section class="curriculum" id="experiencia">
+            <div class="contenido-seccion">
+                <h2>Currículo</h2>
+                <div class="fila">
+
+                    <div class="col izquierda">
+                        <h3>Educación</h3>
+                        <div class="item izq">
+                            <h4>Programación</h4>
+                            <span class="casa">Elementum lacus efficitur accumsan</span>
+                            <span class="fecha">2008 - 2012</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin convallis augue nisi, vitae lacinia mauris commodo sed. In blandit congue est, a consequat magna pharetra sit amet. In eget sapien a erat pretium tincidunt.</p>
+                        </div>
+                        <div class="item izq">
+                            <h4>Edición Multimedia</h4>
+                            <span class="casa">Nam et sapien varius</span>
+                            <span class="fecha">2012 - 2014</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin convallis augue nisi, vitae lacinia mauris commodo sed. In blandit congue est, a consequat magna pharetra sit amet. In eget sapien a erat pretium tincidunt.</p>
+                        </div>
+                        <div class="item izq">
+                            <h4>Community Management</h4>
+                            <span class="casa">Nullam eget tempus justo</span>
+                            <span class="fecha">2014 - 2016</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin convallis augue nisi, vitae lacinia mauris commodo sed. In blandit congue est, a consequat magna pharetra sit amet. In eget sapien a erat pretium tincidunt.</p>
+                        </div>
+                    </div>
+
+                    <div class="col derecha">
+                        <h3>Experiencia Laboral</h3>
+                        <div class="item der">
+                            <h4>Lorem ipsum</h4>
+                            <span class="casa">Aenean eleifend venenatis tellus</span>
+                            <span class="fecha">2016 - 2018</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin convallis augue nisi, vitae lacinia mauris commodo sed. In blandit congue est, a consequat magna pharetra sit amet. In eget sapien a erat pretium tincidunt.</p>
+                        </div>
+                        <div class="item der">
+                            <h4>Aliquam justo libero</h4>
+                            <span class="casa">Cras egestas lectus</span>
+                            <span class="fecha">2019 - 2020</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin convallis augue nisi, vitae lacinia mauris commodo sed. In blandit congue est, a consequat magna pharetra sit amet. In eget sapien a erat pretium tincidunt.</p>
+                        </div>
+                        <div class="item der">
+                            <h4>Nullam eget tempus justo</h4>
+                            <span class="casa">Vestibulum blandit ex lorem</span>
+                            <span class="fecha">2021 - 2022</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin convallis augue nisi, vitae lacinia mauris commodo sed. In blandit congue est, a consequat magna pharetra sit amet. In eget sapien a erat pretium tincidunt.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=================================================   PORTFOLIO   ===========================================-->
+        <section id="portfolio" class="portfolio">
+            <div class="contenido-seccion">
+                <h2>PORTFOLIO</h2>
+                <div class="galeria">
+                    <div class="proyectos">
+                        <img src="/assets/images/project01.jpg" alt="Error al cargar la imagen en el navegador">
+                    </div>
+
+                    <div class="proyectos">
+                        <img src="/assets/images/project02.jpg" alt="Error al cargar la imagen en el navegador">
+                    </div>
+
+                    <div class="proyectos">
+                        <img src="/assets/images/project03.jpg" alt="Error al cargar la imagen en el navegador">
+                    </div>
+
+                    <div class="proyectos">
+                        <iframe width="330" height="240" src="https://www.youtube.com/embed/e57NqRHE6AY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="proyectos">
+                        <iframe width="330" height="240" src="https://www.youtube.com/embed/z0r9pAjXcxs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                       
+                    </div>
+                
+                    <div class="proyectos">
+                        <iframe width="330" height="240" src="https://www.youtube.com/embed/2dS0aDMQoD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--========================================   CONTACTO   ===========================================-->
+        <section id="contacto" class="contacto">
+            <div class="contenido-seccion">
+                <h2>Como contactarme</h2>
+                <div class="fila">
+                    <!--=========================================   Formulario   ==================================-->
+                    <div class="col">
+                        <input type="text" placeholder="Nombre y Apellido">
+                        <input type="text" placeholder="Número telefónico">
+                        <input type="text" placeholder="Dirección de correo">
+                        <input type="text" placeholder="Asunto">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Deja tu mensaje"></textarea>
+                        <button>Enviar Mensaje</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===========================================   footer   ===============================================-->
+        <footer>
+            <a href="#inicio" class="arriba">
+                <i class="fa-solid fa-angles-up"></i>
+            </a>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </footer>
+
+        <script src="scripts.js"></script>
+    </body>
+
+</html>
